@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item> <!-- Action Bar. -->
+        <item name="colorPrimaryDark">@color/colorPrimary</item> <!-- Status Bar. -->
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Home Activity theme. -->
+    <style name="HomeTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item> <!-- Action Bar. -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item> <!-- Status Bar. -->
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Menu Activity theme. -->
+    <style name="MenuTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item> <!-- Action Bar. -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item> <!-- Status Bar. -->
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Navigation theme. -->
+    <style name="DashboardTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Color of text and icon when SELECTED. -->
+        <item name="colorPrimary">@color/colorPrimary</item> <!-- Action Bar. -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item> <!-- Status Bar. -->
+        <!-- Background color when SELECTED -->
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>
+
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="@string/dashboard" />
+
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search"
+            android:title="@string/search" />
+
+        <item
+            android:id="@+id/nav_all_categories"
+            android:icon="@drawable/ic_category"
+            android:title="@string/all_categories" />
+
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/ic_location"
+            android:title="@string/location" />
+
+    </group>
+
+    <item android:title="@string/profile">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/ic_password_icon"
+                    android:title="@string/login" />
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_profile"
+                    android:title="@string/profile" />
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_password_icon"
+                    android:title="@string/logout" />
+
+            </group>
+
+        </menu>
+
+    </item>
+
+    <item android:title="@string/categories">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_lipsticks"
+                    android:icon="@drawable/ic_brush"
+                    android:title="@string/lipsticks" />
+
+                <item
+                    android:id="@+id/nav_eyelashes"
+                    android:icon="@drawable/ic_eyelashes"
+                    android:title="@string/eyelashes" />
+
+                <item
+                    android:id="@+id/nav_hairstyles"
+                    android:icon="@drawable/ic_face"
+                    android:title="@string/hairstyles" />
+
+                <item
+                    android:id="@+id/nav_powder"
+                    android:icon="@drawable/ic_powder"
+                    android:title="@string/powder" />
+
+            </group>
+
+        </menu>
+
+    </item>
+
+    <item android:title="@string/share">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_share"
+                    android:title="@string/share" />
+
+                <item
+                    android:id="@+id/nav_rate_us"
+                    android:icon="@drawable/ic_rate_us"
+                    android:title="@string/rate_us" />
+
+            </group>
+
+        </menu>
+
+    </item>
+
+</menu>

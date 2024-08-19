@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@color/colorPrimary"
+    android:paddingStart="15dp"
+    android:paddingEnd="0dp">
+
+    <TextView
+        android:id="@+id/dashboard_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/menu_slogan"
+        android:fontFamily="@font/muli_black"
+        android:text="@string/dashboard_header"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/menu_slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:text="@string/slogan_name" />
+
+    <ImageView
+        android:id="@+id/menu_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+        android:contentDescription="@string/dashboard_image"
+        android:src="@drawable/dashboard_image" />
+
+</RelativeLayout>
